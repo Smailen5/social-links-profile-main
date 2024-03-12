@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link href="./output.css" rel="stylesheet">
+    <title>Frontend Mentor | Social links profile</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-OffBlack h-screen	flex ">
+    <main
+      class="flex flex-col justify-center items-center container w-11/12 h-4/6 mx-auto my-auto bg-DarkGrey rounded-xl p-5"
+    >
+      <!-- inserisci qui la tua immagine -->
+      <img src="./assets/images/avatar-jessica.jpeg" alt="avatar image" class="rounded-full w-24">
+      <div class="text-white w-11/12">
+        <div
+          class="px-8 py-2 flex flex-col justify-center items-center gap-y-2">
+          <h2 class="text-3xl">Smailen Vargas</h2>
+          <h3 class="text-Green">Como, Italy</h3>
+        </div>
 
-  <h1 class="text-3xl font-bold underline">Jessica Randall</h1>
-  London, United Kingdom
-  "Front-end developer and avid reader."
+        <p class="py-4 text-center">"Front-end developer and avid reader."</p>
 
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <div class="flex flex-col justify-center items-center gap-y-4 w-full">
+          <a href="https://github.com/Smailen5" class="bg-Grey w-full h-10 rounded-lg flex justify-center items-center" target="_blank">GitHub</a>
+          <a href="https://www.frontendmentor.io/profile/Smailen5" class="bg-Grey w-full h-10 rounded-lg flex justify-center items-center" target="_blank">Frontend Mentor</a>
+          <a href="https://www.linkedin.com/in/smailen-vargas/" class="bg-Grey w-full h-10 rounded-lg flex justify-center items-center" target="_blank">LinkedIn</a>
+          <a href="https://twitter.com/" class="bg-Grey w-full h-10 rounded-lg flex justify-center items-center" target="_blank">Twitter</a>
+          <a href="https://www.instagram.com/" class="bg-Grey w-full h-10 rounded-lg flex justify-center items-center" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
