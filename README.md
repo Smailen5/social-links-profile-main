@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Smailen5/social-links-profile-main)
-- Live Site URL: [Add live site URL here](https://smailen5.github.io/social-links-profile-main/)
+- Solution URL: [solution URL here](https://github.com/Smailen5/social-links-profile-main)
+- Live Site URL: [live site URL here](https://smailen5.github.io/social-links-profile-main/)
 
 ## My process
 
