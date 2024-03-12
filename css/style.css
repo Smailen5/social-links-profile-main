@@ -781,6 +781,18 @@ video {
   line-height: 2.25rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
 .text-Green {
   --tw-text-opacity: 1;
   color: hsl(75 94% 57% / var(--tw-text-opacity));
